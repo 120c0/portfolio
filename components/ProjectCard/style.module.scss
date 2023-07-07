@@ -1,0 +1,49 @@
+.container {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 25px;
+
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    h1 {
+      font-size: 14pt;
+      font-weight: 400;
+      text-align: center;
+    }
+    p {
+      font-size: 10pt;
+      color: rgb(190, 190, 190);
+      padding: 0 0.5rem 0 0.5rem;
+    }
+  }
+  
+  .link_button {
+    text-decoration: none;
+    display: block;
+    color: azure;
+    background-color: crimson;
+    padding: 1rem;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .banner {
+    width: 100%;
+    height:250px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    
+    @media only screen and (min-width: 600px) {
+      height:350px;
+    }
+  }
+}
