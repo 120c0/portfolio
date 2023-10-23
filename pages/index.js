@@ -54,6 +54,9 @@ export default function Home() {
             <li>TypeScript/JavaScript (Rocketseat/Udemy)</li>
             <li>C/C++ (Udemy)</li>
             <li>HTML, CSS (Udemy)</li>
+            <li>TypeScript, NextJS, ExpressJS, Redux (RocketSet))</li>
+            <li>Sqlite3 (Books/Docs)</li>
+            <li>Java for Android Development (Udemy)</li>
             <li>Computação Básica (2014 - Presencial)</li>
           </ul>
         </article>

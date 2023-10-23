@@ -3,7 +3,6 @@
   color: white;
   margin: 2rem;
   border-radius: 5px;
-  padding-bottom: 0.01rem;
 
 
   article {
@@ -32,10 +31,9 @@
     color: azure;
     background-color: crimson;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     text-transform: uppercase;
     text-align: center;
-    margin: 1rem;
   }
   .banner {
     width: 100%;
