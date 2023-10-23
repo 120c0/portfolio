@@ -110,7 +110,7 @@ export default function Home() {
       <h1 className={'title-sep'}>Projetos Pessoais</h1>
       <div className='grid-project'>
         <ProjectCard
-            title={'Fazeli Wallet'}
+            title={'Fazueli Wallet'}
             description={'Um teste meu trabalhando com Redux, Sqlite3 e brincando com sistema de transferência de "dinheiro" entre contas, simulando um "banco", projeto complexo.'}
             key={9}
             images_path={[
