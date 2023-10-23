@@ -5,15 +5,15 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html {
-  background-color: #141414;
+:root {
+  background-color: #000000;
 }
 
 .title-sep {
   color: white;
   padding: 2rem;
   text-align: center;
-  background-color: #0c0c0c;
+  background-color: rgb(7, 7, 7);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   font-size: 15pt;
   font-weight: 400;
@@ -41,7 +41,7 @@ body, html {
     display: block;
     text-align: center;
     margin: 1rem auto 3rem auto;
-    border-radius: 25px;
+    border-radius: 5px;
   }
   .cv-container {
     color: white;
@@ -49,6 +49,10 @@ body, html {
 
     ul {
       padding: 1rem;
+
+      li {
+        padding-top: 0.5rem;
+      }
     }
     @media only screen and (min-width: 600px) {
       h1 {
@@ -59,7 +63,7 @@ body, html {
 }
 .end-site {
   padding: 2rem;
-  background-color: #000000;
+  background-color: rgb(7, 7, 7);
   color: rgb(207, 207, 207);
   text-align: center;
   font-size: 10pt;

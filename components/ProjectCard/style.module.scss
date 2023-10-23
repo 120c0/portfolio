@@ -1,9 +1,9 @@
 .container {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(10, 10, 10);
   color: white;
   margin: 2rem;
   padding: 2rem;
-  border-radius: 25px;
+  border-radius: 5px;
 
   article {
     display: flex;
@@ -30,7 +30,7 @@
     color: azure;
     background-color: crimson;
     padding: 1rem;
-    border-radius: 25px;
+    border-radius: 5px;
     text-transform: uppercase;
     text-align: center;
   }
@@ -40,7 +40,7 @@
     object-fit: cover;
     background-position: center;
     background-size: cover;
-    border-radius: 25px;
+    border-radius: 5px;
     
     @media only screen and (min-width: 600px) {
       height:350px;

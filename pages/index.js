@@ -51,7 +51,7 @@ export default function Home() {
         <article className='cv-container'>
           <h1>Cursos</h1>
           <ul>
-            <li>TypeScripte/JavaScript (Rocketseat)</li>
+            <li>TypeScript/JavaScript (Rocketseat/Udemy)</li>
             <li>C/C++ (Udemy)</li>
             <li>HTML, CSS (Udemy)</li>
             <li>Computação Básica (2014 - Presencial)</li>
@@ -67,11 +67,11 @@ export default function Home() {
         <article className='cv-container'>
           <h1>Habili. Extras Curricular</h1>
           <ul>
-            <li>Manutenção de Eletroònicos (Básico)</li>
-            <li>Manutenção OS (Linux, Windows, Android)</li>
+            <li>Manutenção de Eletrônicos Digitais (Básico)</li>
+            <li>Manutenção de OS (Linux, Windows, Android)</li>
             <li>Desenvolvedor Freelancer</li>
-            <li>Editor de fotos e vídeos</li>
-            <li>Criador de banners para anúncios</li>
+            <li>Editor de Fotos e Vídeos</li>
+            <li>Criação de banners para anúncios</li>
           </ul>
         </article>
         <br/>
@@ -186,8 +186,6 @@ export default function Home() {
           link={'https://github.com/Xnork/SDL2-Particle-System'}
         />
       </div>
-
-      
     </Layout>
   )
 }
