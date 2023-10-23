@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 
-export const ProjectCard = ({images_path, title, description, key, link}) => {
+export const ProjectCard = ({images_path, title, description, link, key}) => {
   const [current_image_index, setCurrentImageIndex] = useState(0)
 
   useEffect(() => {
