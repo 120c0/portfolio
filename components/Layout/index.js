@@ -17,7 +17,7 @@ export const Layout = ({children, title, style}) => {
       </main>
 
       <footer className='end-site'>
-        © 2023 Deuzivan Lima Viana
+        © 2023 Xnork
       </footer>
     </div>
   )
