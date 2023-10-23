@@ -108,7 +108,7 @@ export default function Home() {
       <div className='grid-project'>
         <ProjectCard
             title={'Fazeli Wallet'}
-            description={'Um teste meu trabalhando com Redux, Sqlite3 e brincando com sistema de transferência de dinheiro entre contas, simulando um "banco", projeto complexo.'}
+            description={'Um teste meu trabalhando com Redux, Sqlite3 e brincando com sistema de transferência de "dinheiro" entre contas, simulando um "banco", projeto complexo.'}
             key={9}
             images_path={[
               '/projects/fazueli-wallet-001.png',
@@ -118,7 +118,7 @@ export default function Home() {
               '/projects/fazueli-wallet-005.png',
               '/projects/fazueli-wallet-006.png',
             ]}
-            link={'https://github.com/Xnork/NoobBank-Mobile-Layout'}
+            link={'https://github.com/Xnork/Fazueli-Wallet'}
           />
         <ProjectCard
             title={'NoobBank - Based on Nubank'}
