@@ -3,7 +3,9 @@
   color: white;
   margin: 2rem;
   border-radius: 5px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   article {
     display: flex;
